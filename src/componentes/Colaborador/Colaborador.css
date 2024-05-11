@@ -1,0 +1,63 @@
+.colaborador {
+    width: 280px;
+}
+
+.cabecalho {
+    border-radius: 10px 10px 0px 0px;
+    background: linear-gradient(270deg, #707070, #ffffff, #c1c1c1, #626262, #f7f7f7, #5a5a5a, #f6f6f6);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+
+    
+}
+
+.cabecalho img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.rodape {
+    background: #f6f6f6;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.rodape h4 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color:#272727
+
+}
+
+.rodape h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #5b5b5b;
+    padding: 0 16px;
+
+}
